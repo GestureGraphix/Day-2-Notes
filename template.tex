@@ -197,5 +197,47 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	Lower: $-5$ \\
 }
 
+\nt{
+	Mean value theorem: If $f$ is  continuous on $[a,b]$ and differentiable on the $(a,b)$ then there 
+	exists a $c$ on $(a,b)$ such that $f'(c) = \frac{f(b) - f(a)}{b-a}$ \\\\
+	Taylor's Theorem: If $f$ is continuous on $[a,b]$ and $(n+1)^{\text{st}}$ differentiable 
+	on $(a,b)$ then there exists a $c$ in $(a,b)$ such that $f(b) = f(a) + f'(a)(b-a) + \frac{f'(a)}{2}(b-a) + \dots + \frac{f^{(n)}(a)}{n!} (b-a)^{n} + \frac{f^{(n+a)}(c)}{(n+1)!}(b-a)^{n+1}$ \\\\
+	Mean Value Theorem as the Taylor's Theorem at $n = 0$. \\
+	\begin{center}
+		\[f(b) = f(a) + \frac{f'(c)}{1!}(b-a)^{1}\]
+		\[ f(b) - f(a) = f'(c)(b-a)\]
+		\[ f'(c) = \frac{f(b) - f(a)}{b - a}\] 
+	\end{center}
+
+	$P_{n}(b)$: Where $P_{n} (x)$ is $n^{th}$ degree Taylor Poly for $f(x)$ based at $x = a$. So, 
+	\begin{center}
+		\[ |f(b) - P_{n}(b)| = \left|\frac{f^{(n + 1)}(c)}{(n + 1)!}(b-a)^{n+1}\right| = \frac{\left| f^{(n+1)}(c)\right|(b-a)^{n+1}}{(n+1)!} \] 
+	\end{center} 
+	Error Bound: $|f(x) - P_{n}(x)| \leq \frac{M}{(n+1)!}(x-a)^{n+1}$ \\
+	$n^{th}$ degree TP based at x = a: where $|f^{(n+1)} (z)| \leq M$ for all $z$ between $a$ and $x$. 
+}
+
+\ex{In quiz, we wanted to approximate $\sqrt{3.95}$ using 1$^{st}$ degree TP based at $x=4$.}{
+	\begin{center}
+		\[ P_{1}(x) = 2 + \frac{1}{4}(x-a) \]
+		\[ \sqrt{3.95} \approx P_{1}(3.95) = 2 + \frac{1}{4} (3.95 - 4) = 2 - 0.00125 = 1.9875\] 
+		\[ f(x) = x^{\frac{1}{2}}\]
+		\[ f'(x) = \frac{1}{2} x ^{-\frac{1}{2}}\]
+		\[ |f''(x) | = \left| \frac{1}{4}x^{-\frac{3}{1}} \right| = \frac{1}{4} x^{-\frac{3}{2}} \]   
+		\[ M = \frac{1}{4}: \left| \sqrt{3.95} - 1.9875 \right| \leq \frac{\frac{1}{4} \left| 3.95 - 4\right| ^{2}}{2} \approx 0.00004\] 
+	\end{center}
+}
+
+\ex{Find $n$ so that the $n^{th}$ defree TP for $f(x) = \cos x $ based at $x = 0$ approximate $\cos(0.03)$ to within $10^{-15}$}{
+	\begin{center}
+		\[ f'(x) = - \sin(x) \]
+		\[ f''(x) = - \cos (x) \]
+		\[ f^{(3)} (x) = \sin(x) \] 
+		\[ f^{(4)} (x) = \cos(x) \]   
+		\[ \left| f^{(n+1)} \leq 1\right| \text{ eveywhere and for every n}\]
+		\[ M = 1\] 
+		\[ \cos(0.03) - P_{n}(0.03) \leq \frac{1 \cdot (0.03 - 0)^{n+1}}{n+1} = \left(\frac{3}{1000}\right)^{n+1} \frac{1}{(n+1)!} \leq 10^{-15} \]  
+	\end{center}
+}
 
 \end{document}
