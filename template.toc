@@ -9,4 +9,5 @@
 \contentsline {section}{\numberline {4.1}Warm Up}{8}{section.4.1}%
 \contentsline {chapter}{\numberline {5}}{10}{chapter.5}%
 \contentsline {section}{\numberline {5.1}}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Infinite Series}{11}{section.5.2}%
 \contentsfinish 
