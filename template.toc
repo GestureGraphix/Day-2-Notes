@@ -7,4 +7,6 @@
 \contentsline {section}{\numberline {3.1}Warm up}{6}{section.3.1}%
 \contentsline {chapter}{\numberline {4}}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Warm Up}{8}{section.4.1}%
+\contentsline {chapter}{\numberline {5}}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}}{10}{section.5.1}%
 \contentsfinish 

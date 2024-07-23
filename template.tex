@@ -201,7 +201,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	Mean value theorem: If $f$ is  continuous on $[a,b]$ and differentiable on the $(a,b)$ then there 
 	exists a $c$ on $(a,b)$ such that $f'(c) = \frac{f(b) - f(a)}{b-a}$ \\\\
 	Taylor's Theorem: If $f$ is continuous on $[a,b]$ and $(n+1)^{\text{st}}$ differentiable 
-	on $(a,b)$ then there exists a $c$ in $(a,b)$ such that $f(b) = f(a) + f'(a)(b-a) + \frac{f'(a)}{2}(b-a) + \dots + \frac{f^{(n)}(a)}{n!} (b-a)^{n} + \frac{f^{(n+a)}(c)}{(n+1)!}(b-a)^{n+1}$ \\\\
+	on $(a,b)$ then there exists a $c$ in $(a,b)$ such that $f(b) = f(a) + f'(a)(b-a) + \frac{f'(a)}{2}(b-a) + \dots + \frac{f^{(n)}(a)}{n!} (b-a)^{n} + \frac{f^{(n+1)}(c)}{(n+1)!}(b-a)^{n+1}$ \\\\
 	Mean Value Theorem as the Taylor's Theorem at $n = 0$. \\
 	\begin{center}
 		\[f(b) = f(a) + \frac{f'(c)}{1!}(b-a)^{1}\]
@@ -237,6 +237,40 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 		\[ \left| f^{(n+1)} \leq 1\right| \text{ eveywhere and for every n}\]
 		\[ M = 1\] 
 		\[ \cos(0.03) - P_{n}(0.03) \leq \frac{1 \cdot (0.03 - 0)^{n+1}}{n+1} = \left(\frac{3}{1000}\right)^{n+1} \frac{1}{(n+1)!} \leq 10^{-15} \]  
+	\end{center}
+}
+
+\chapter{}
+\section{}{Warm up}
+\qs{}{(a) Find the $5^{th}$ degree Taylor Polynomial for $f(x) = e^{x}$ based at $x = 0$.\\
+(b) Find $P_{n}(x)$. \\
+(c) Find an upper bound (in terms of n ) of the error $\left|f(x) - P_{n}(x)\right|$, for $x > 0$\\
+(d) What is $\lim_{n \to \infty} |f(x) - P_{n}(x)$}
+\sol{
+	(a)
+	\begin{center}
+		\[ f(x) = e^{x}\] 
+		\[ f'(x) = e^{x}\] 
+		\[ f''(x) = e^{x}\] 
+		\[ f^{(2)}(x) = e^{x}\] 
+		\[ f^{(3)}(x) = e^{x}\] 
+		\[ f^{(4)}(x) = e^{x}\] 
+		\[ f^{(5)}(x) = e^{x}\] 
+		\[ P_{5}(x) = e^{0} + e^{0}(x) + \frac{e^{0}}{2}(x)^{2} + \frac{e^{0}}{6}(x)^{3} + \frac{e^{0}}{24}(x)^{4} + \frac{e^{0}}{120}(x)^{5}\] 
+		\[ P_{5}(x) = 1 + (x) + \frac{1}{2}(x)^{2} + \frac{1}{6}(x)^{3} + \frac{1}{24}(x)^{4} + \frac{1}{120}(x)^{5}\] 
+	\end{center}
+	(b) 
+	\begin{center}
+		\[ P_{n}(x) = \sum^{n}_{k=0} \frac{1}{k!}(x)^{k}\] 
+	\end{center}
+	(c) 
+	\begin{center}
+		\[ |f(x) - P_{n}(x)| \leq \frac{M(x-a)^{n+1}}{(n+1)}\] 
+		\[ |f(x) - P_{n}(x)| \leq \frac{e^{x}(x)^{n+1}}{(n+1)!}, \text{where } |e^{z}| \leq M \text{ for all } z \text{ between 0 and } x \] 
+	\end{center}
+	(d) 
+	\begin{center}
+		
 	\end{center}
 }
 
