@@ -10,4 +10,7 @@
 \contentsline {chapter}{\numberline {5}}{10}{chapter.5}%
 \contentsline {section}{\numberline {5.1}}{10}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Infinite Series}{11}{section.5.2}%
+\contentsline {chapter}{\numberline {6}}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Geometric Series}{13}{section.6.2}%
 \contentsfinish 

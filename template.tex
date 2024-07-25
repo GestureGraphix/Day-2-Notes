@@ -182,7 +182,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 
 \chapter{}
 \section{Warm Up}
-\qs{}{Suppose for a cerntain function $f$ we know that $|f'(x)| \leq f$ for all x. \\
+\qs{}{Suppose for a certain function $f$ we know that $|f'(x)| \leq f$ for all x. \\
 (1) What is the largest possible value of $\left| f(4) - f(1) \right|$? \\\
 (2) What is the largest possible value of $|f(b) - f(a)|$ for a given interval $[a, b]$? \\
 (3) Suppose we also know that f(1) = 10. Find upper and lower bound for $f(4)$. }
@@ -336,6 +336,69 @@ we write
 	\begin{center}
 		
 	\end{center}
+}
+
+\chapter{}
+\section{}{Warm up}
+\qs{}{(a)Verify using algebra that $\frac{1}{k^{2} + k}$ \\
+(b) Because of (1), we can write the seris as 		$R S_{n} = \left(\frac{1}{2} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{3}\right) + \left(\frac{1}{4} - \frac{1}{5}\right) + \ldots \left(\frac{1}{n} - \frac{1}{n+1}\right)$ use this to form a close formula
+for the n$^{th}$ partial sum. \\
+(c) Does the series converge?}
+\sol{
+	\begin{center}
+		\[ \frac{1}{k^{2} + k}\] 
+		\[ \frac{1}{k(k+1)}\] 
+		\[ \frac{A}{k} + \frac{B}{k+1} = \frac{1}{k(k+1)}\]
+		\[ \frac{A(k+1) + B(k)}{k^{2}+k}\]
+		\[ A(-1 + 1) + B(-1) = -B = 1\]   
+		\[ A(1 + 0) + B(0) = A = 1\]   
+
+	\end{center}
+	(b)
+	\begin{center}
+		\[ S_{n} = \left(\frac{1}{2} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{3}\right) + \left(\frac{1}{4} - \frac{1}{5}\right) + \ldots \left(\frac{1}{n} - \frac{1}{n+1}\right)\] 
+		\[ S_{n} = \frac{1}{2} - \frac{1}{n+1}\] 
+	\end{center}
+	(c) 
+	Yes to $\frac{1}{2}$
+}
+
+\section{Geometric Series}
+\ex{Suppose a patient takes 100mg of a certain druge once per day. In 
+24 hours the patients body eliminates 80$\text{\%}$ of the drug}{
+	(a) If the first dose is the $k = 0$ dose, how much of the drug is present 
+	immediately after the $ k = 1$ dose 
+	\begin{center}
+		\[ S_{1} = 100 + 100(0.2) \] 
+	\end{center}
+	(b) $k = 2$?
+	\begin{center}
+		\[ S_{2} = 100 + 120(0.2) = 100 + 100(0.2) + 100(0.2)^{2} = 124\] 
+	\end{center}
+	(c) $ = 3$
+	\begin{center}
+		\[ S_{3} = 100 + 124(0.2) =  100 + 100(0.2) + 100(0.2)^{2} + 100(0.2)^{3}  100 + 100(0.2) + 100(0.2)^{2}= 124.8\] 
+		\[ S_{n} = 100 + 124(0.2) =  100 + 100(0.2) + 100(0.2)^{2} + 100(0.2)^{3}  100 + 100(0.2) + 100(0.2)^{2} + \ldots + 100(0.2)^{n}\] 
+		\[ S_{n} = \sum_{k=0}^{n} 100(0.2)^{k}\] 
+	\end{center}
+	(d) What happenst 
+
+}
+
+\nt{In general a geometric series has the form
+	\begin{center}
+		\[ \sum_{k = 0}^{\infty} a r ^{k} = a + ar + ar^{2}\] 
+	\end{center}
+	a is the first term. 
+	\\ r is the common ratio between succesive terms. \
+	\begin{center}
+		\[ S_{n} = a + ar + ar^{2} + \ldots + ar^{n} \] 
+		\[ rS_{n} = ar + ar ^{2} + ar^{3} + \ldots + ar^{n+1}\]
+		\[ (1-r)S_{n} = a\left(1-r^{n+1}\right)\] 
+		\[ S_{n} = a\left(\frac{1-r^{n+1}}{1 - r}\right)\] 
+	\end{center}
+	$r^{n+1} \to 0$ if $|r| < 1$ 
+
 }
 
 \end{document}
