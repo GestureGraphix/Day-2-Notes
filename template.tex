@@ -381,7 +381,10 @@ for the n$^{th}$ partial sum. \\
 		\[ S_{n} = 100 + 124(0.2) =  100 + 100(0.2) + 100(0.2)^{2} + 100(0.2)^{3}  100 + 100(0.2) + 100(0.2)^{2} + \ldots + 100(0.2)^{n}\] 
 		\[ S_{n} = \sum_{k=0}^{n} 100(0.2)^{k}\] 
 	\end{center}
-	(d) What happenst 
+	(d) What happens in the long term?
+	\begin{center}
+		\[ \sum_{k=0}^{\infty} 100(0.2)^{k} = \frac{100}{1-0.2} = \frac{100}{0.8} = 125 mg \] 
+	\end{center}
 
 }
 
@@ -397,8 +400,96 @@ for the n$^{th}$ partial sum. \\
 		\[ (1-r)S_{n} = a\left(1-r^{n+1}\right)\] 
 		\[ S_{n} = a\left(\frac{1-r^{n+1}}{1 - r}\right)\] 
 	\end{center}
-	$r^{n+1} \to 0$ if $|r| < 1$ 
+	$r^{n+1} \to 0$ if $|r| < 1$ \\
+	$r^{n+1} \to \infty$ if $|r| > 1$ \\
+	If $|r| < 1$, the series $\sum_{k=0}^{\infty} ar^{k}$ converges to $\frac{a}{1-r}$. 
+	Otherwise, the series diverges
+}
 
+\section{Iv}
+
+\nt{Harmonic Series \\
+	\begin{center}
+		\[ \sum_{k =1}^{\infty} \frac{1}{k} = \frac{1}{2} + \frac{1}{4} + \frac{1}{4} + \frac{1}{5} + \ldots \] 
+	\end{center}
+}
+
+\chapter{}
+\section{Warm Up}
+
+\qs{}{Which of the following statements must be true about a series and its partial sums, which 
+	must be false, and for which is it impossible to say \\
+	(1) If $a_{k} > 0$ for all $k$, then $S_{n} = \sum_{k =1}^{n} a_{k}$ is increasing \\
+	(2) If $\lim_{n \to \infty } a_{k} = 0$, then $lim_{n \to \infty} s_{n}$ exists and is finite \\
+	(3) If $S_{n} = \sum_{k=1}^{n} a_{k} = \frac{4n^{2}}{1+n^{2}}$, then $a_{2} = \frac{6}{5}$ \\
+	(4) If $S_{n} = \sum_{k = 1}^{n} a_{k} = \frac{4n^{2}}{1 + n^{2}}$ then the series converges.
+	}
+
+\sol{
+	\\
+	(1) true $s_{n+1} = s_{n} + a_{n+1} > s_{n}$ since $a_{n}>0$\\
+	(2) its $\sum_{k=1}^{n} \frac{1}{k}$ diverges and $\sum_{k=1}^{n} = \frac{1}{k^{2}}$ converges\\
+	(3) 
+	\begin{center}
+		\[ S_{1} = \frac{4(1)^{2}}{1+1^{2}} = \frac{4}{2} = 2\] 
+		\[ a_{2} = S_{2} - S_{1} = \frac{4(2)^{2}}{1 + (2)^{2}} - 2 = \frac{16}{5} - 2\] 
+	\end{center}
+	true.\\
+	(4) true, $\lim_{n \to \infty} \frac{4n^{2}}{1 + n^{2}} = 4$
+}
+
+\ex{Cconsider a bowl whose shpae is given by rotating the grahp of $y =x^{2}$, $o \leq x \leq 2$ around the 
+y-axis}{
+	(a) Write an integral to compute the volume of the bowl. 
+	\begin{center}
+		\[ \text{volume of the i}^{th} \text{ slice } \pi r_{i}^{2} \Delta h \] 
+		\[ h_{i} = r_{i}^{2} \] 
+		\[ r_{i} = \sqrt{h_{i}} \] 
+		\[ \pi \left(\sqrt{h_{i}}\right)^{2} \Delta h\]
+		\[ \text{ total volume } \approx \sum_{k=1}^{n} \pi h_{i} \Delta h\]
+		\[ \text{ total volume} = \int_{0}^{4} \pi h dh \text{ cm}^{3}\] 
+
+	\end{center}
+	(b) If density of oatmeal bowm $\rho (h)$ g/cm$^{3}$  where $h$ is the veritcal distance from the bottom, 
+	$0 \leq h \leq 4$ write an integral to compute the mass of oatmeal in the bowl.
+	\begin{center}
+		\[ \text{ mass of i}^{th} \text{ slice} = \rho (h_{i}) \pi h_{i} \Delta h\]
+		\[ \text{ total mass} = \int_{0}^{4} \rho(h) \pi h dh\]  
+	\end{center} 
+	(c) Write an integral to compute work required to lift all oatmeal to height of 15 cm above top of bowl. 
+	\begin{center}
+		\[ g = \frac{\rho(h_{i})\pi \Delta h}{1000}\] 
+		\[ \text{ work for i}^{th}\text{ slice } = \frac{9.8(\rho(h_{i}))\pi h_{i} \Delta h}{1000} \left(\frac{19 - h_{i}}{100}\right)\]
+		\[ \text{total work} = \int_{0}^{4} \frac{9.8\rho(h)\pi h (19 - h)}{100000} dh\] 
+	\end{center}
+}
+
+\nt{ 
+	If $f$ is increasing, $L_{n} < I < R_{n}$ \\
+	If $f$ is decreasing, $R_{n} < I < L_{n}$ \\
+	If $f$ is concave up, $M_{n} < I < T_{n}$ \\
+	If $f$ is concave down, $T_{n} < I < M{n}$
+}
+\ex{Let $I = \int_{0}^{8} \frac{1}{x+3} dx$}{
+	(a) Is $M_{2}$ an over or under approx. for I? \\
+	\begin{center}
+		\[ f(x) = \frac{1}{x + 3} = (x + 8)^{-1}\]
+		\[ f'(x) = -(x + 3)^{-2}\]
+		\[ f''(x) = 2(x+3)^{-3} \]   
+	\end{center}
+	$2(x+3)^{-3} > 0 $ on $[0,8]$. underestimate. 
+	(b) Compute $M_{2}$ \\ 
+	\begin{center}
+		\[ M_{2} = f(2) \Delta x + f(6) \Delta x\]
+		\[ M_{2} = \frac{1}{5}(4)  +\frac{1}{9}(4) \] 
+		\[ M_{2} = \frac{56}{45}\]  
+	\end{center}
+	(c) Find an upper bound on the error when using $M_{2}$ to approximate I. 
+	\begin{center}
+		\[ |I - M_{n} \leq \frac{M(b-a)^{3}}{24n^{2}}, \text{ where } |f''(x)| \leq M_{n} \text{ on } [0,8]\]
+		\[ f''(x) = \frac{2}{(x+3)^{3}} \leq \frac{2}{27} \text{ on } [0,8] \]
+		\[ |I - M_{n}| \leq \frac{\frac{2}{27}(8 - 0)}{24(2)^{2}} = \frac{2^{5}}{3^{4}} = \frac{32}{81}\]    
+	\end{center} 
 }
 
 \end{document}
