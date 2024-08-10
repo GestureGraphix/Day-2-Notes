@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.8)  10 AUG 2024 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.8)  10 AUG 2024 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/template.tex"
-(/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/template.tex
+**"/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex"
+(/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/base/report.cls
@@ -1080,8 +1080,8 @@ File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
 \ttl@leftsep=\dimen332
-)) (macros.tex) (letterfonts.tex) (template.aux)
-\openout1 = `template.aux'.
+)) (macros.tex) (letterfonts.tex) (Notes.aux)
+\openout1 = `Notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 11.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 11.
@@ -1222,7 +1222,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-(template.toc
+(Notes.toc
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1232,7 +1232,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
 \tf@toc=\write5
-\openout5 = `template.toc'.
+\openout5 = `Notes.toc'.
 
 
 
@@ -1451,7 +1451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 519--519
 
 [18]
 
-[19] (template.aux)
+[19] (Notes.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1467,14 +1467,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  37231 strings out of 475839
- 752016 string characters out of 5777281
+ 751962 string characters out of 5777281
  1950905 words of memory out of 5000000
  59121 multiletter control sequences out of 15000+600000
  588620 words of font info for 123 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 99i,8n,102p,606b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,102p,603b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/NewPXMI.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/NewPXMI_gnu.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/pxmiaX.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/pxsys.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newtx/txexs.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newtx/txsym.pfb>
-Output written on template.pdf (20 pages, 277431 bytes).
+Output written on Notes.pdf (20 pages, 277431 bytes).
 PDF statistics:
  400 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)

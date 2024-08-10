@@ -1,7 +1,7 @@
 PWD /home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/template.tex
-OUTPUT template.log
+INPUT /home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex
+OUTPUT Notes.log
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/base/report.cls
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/base/report.cls
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/base/size10.clo
@@ -290,7 +290,7 @@ INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/frontendl
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT template.pdf
+OUTPUT Notes.pdf
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/tcolorbox/tcbposter.code.tex
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
@@ -381,10 +381,10 @@ INPUT ./letterfonts.tex
 INPUT ./letterfonts.tex
 INPUT ./letterfonts.tex
 INPUT letterfonts.tex
-INPUT ./template.aux
-INPUT ./template.aux
-INPUT template.aux
-OUTPUT template.aux
+INPUT ./Notes.aux
+INPUT ./Notes.aux
+INPUT Notes.aux
+OUTPUT Notes.aux
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/newpx/omlnpxmi.fd
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/newpx/omlnpxmi.fd
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/newpx/omlnpxmi.fd
@@ -463,15 +463,15 @@ INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmr17
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT ./template.toc
-INPUT ./template.toc
-INPUT template.toc
+INPUT ./Notes.toc
+INPUT ./Notes.toc
+INPUT Notes.toc
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT template.toc
+OUTPUT Notes.toc
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/newpx/zplmi.tfm
@@ -529,7 +529,7 @@ INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/vf/public/newpx/zpl
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/newpx/NewPXMI_gnu.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/newpx/NewPXMI.tfm
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/newtx/stxscr.tfm
-INPUT template.aux
+INPUT Notes.aux
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/NewPXMI.pfb

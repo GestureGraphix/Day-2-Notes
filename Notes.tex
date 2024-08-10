@@ -35,6 +35,7 @@
 	more energy for (2) since we need to lift the soil out of the hole
 }
 
+
 \section{In class notes}
 
 \nt{In physics work = (force)(distance)\\
@@ -45,39 +46,55 @@
 \ex{ Q: For (2), how much work is required to remove the soil}{
 	Slice the shape into layers parallel to the bottom of the hole. \\
 	Let x be the depth from the top of the hole $(0 \leq x \leq 10)$ each layer has thicknes $\Delta x$. \\
-	Volume of the i$^{\text{th}}$ slice = $(4)(6)(\Delta x) = 24 \Delta x \text{ ft}^{3}$ \\
-	Weight of the i$^{\text{th}}$ slice = $12$lb/ft$^{3} \space (24 \Delta x) \text{ft}^{3} = 288 \Delta x$ lbs \\
-	Work need to lift i$^{\text{th}} \approx (288 \Delta x \text{ lbs}) (x_{i} \text{ft})$  \\
+	\begin{itemize}
+		\item $	\text{Volume of the i}^{\text{th}} \text{ slice} = (4)(6)(\Delta x) = 24 \Delta x \text{ ft}^{3}$ 
+		\item $ \text{Weight of the i}^{\text{th}} \text { slice} = 12\text{lb/ft}^{3} \space (24 \Delta x) \text{ft}^{3} = 288 \Delta x \text{lbs}$
+		\item $ \text{Work needed to lift i}^{\text{th}} \approx (288 \Delta x \text{ lbs}) (x_{i} \text{ft})$ 
+	\end{itemize}
 	It is approximate and not exact because no all of the i$^{th}$ slice is lifted the same distance \\
-	Total work $\approx \sum^{n}_{i=1} 288x_{i} \Delta x (\text{ft * lbs})$ \\
-	$\int^{10}_{0} 288 x dx $ ft * lbs $ = (144x^{2}) \Big|^{10}_{0} = 14400$ ft * lbs 
+	\begin{itemize}
+		\item $ \text{Total work} \approx \sum^{n}_{i=1} 288x_{i} \Delta x (\text{ft * lbs})$ 
+	\end{itemize}
+	\begin{center}
+		\[ \int^{10}_{0} 288 x dx \text{ft * lbs}  = (144x^{2}) \Big|^{10}_{0} = 14400 \text{ft * lbs} \] 
+
+	\end{center}
 }
 
 \ex{ Q: How much work for a $10$ by $6$ by $4$ hole}{
-	Volume of the i$^{\text{th}}$ slice = $(10)(6)(\Delta x) = 60 \Delta x \text{ ft}^{3}$ \\
-	Weight of the i$^{\text{th}}$ slice = $12$lb/ft$^{3} \space (60 \Delta x) \text{ft}^{3} = 720 \Delta x$ lbs \\
-	Work need to lift i$^{\text{th}} \approx (720 \Delta x \text{ lbs}) (x_{i} \text{ft})$  \\
+	\begin{itemize}
+		\item Volume of the i$^{\text{th}}$ slice = $(10)(6)(\Delta x) = 60 \Delta x \text{ ft}^{3}$ 
+		\item Weight of the i$^{\text{th}}$ slice = $12$lb/ft$^{3} \space (60 \Delta x) \text{ft}^{3} = 720 \Delta x$ lbs
+		\item Work need to lift i$^{\text{th}} \approx (720 \Delta x \text{ lbs}) (x_{i} \text{ft})$  \\
+	\end{itemize}
 	It is approximate and not exact because no all of the i$^{th}$ slice is lifted the same distance \\
-	Total work $\approx \sum^{n}_{i=1} 720x_{i} \Delta x (\text{ft * lbs})$ \\
-	$\int^{4}_{0} 720 x dx $ ft * lbs $ = (360x^{2}) \Big|^{4}_{0} = 5120$ ft * lbs 
+	\begin{center}
+		\[ \text{Total work } \approx \sum^{n}_{i=1} 720x_{i} \Delta x (\text{ft * lbs}) \] 
+		\[ \int^{4}_{0} 720 x dx \text{ ft * lbs}  = (360x^{2}) \Big|^{4}_{0} = 5120 \text{ft * lbs}\]
+	\end{center}
 }
 
 \ex{ Suppose the density of the soil is given by $p(x) = 8 + 2x$ lb/ft$^{3}$. How does the change the answer for the shallow soil?}{
-	Volume of the i$^{th}$ slice $= 60 \Delta x \text{ft}^{3}$ \\
-	Weight of the i$^{th}$ slice $= (8 + 2x_{i})60 \Delta x$ \\
-	Work needed to lift the i$^{th}$ slice $\approx (8 + 2x+{i})(60 \Delta x)(x_{i})$ \\
-	Total work $ \approx \sum^{n}_{i=1} (8 + 2x_{i})(60 x_{i}) \Delta x$ \\
-	$\int^{4}_{0} (8 + 2x_{i}) (60 x) dx$ 
+	\begin{itemize}
+		\item $\text{Volume of the i}^{th} \text{slice} = 60 \Delta x \text{ft}^{3}$
+		\item $\text{Weight of the i}^{th} \text{slice} = (8 + 2x_{i})60 \Delta x $
+		\item $\text{Work needed to lift the i} ^{th} \text{slice} \approx (8 + 2x+{i})(60 \Delta x)(x_{i})$
+		\item $\text{Total work} \approx \sum^{n}_{i=1} (8 + 2x_{i})(60 x_{i}) \Delta $
+	\end{itemize}
+	\begin{center}
+		\[\int^{4}_{0} (8 + 2x_{i}) (60 x) dx \] 
+	\end{center}
+	
 }
 
 \ex{ Circular corn field of radius $50$ ft. The density of the corn in (ears/ft$^{2}$) is a function $f(y)$ 
 where $y$ is the distance from the center of the circle. Write an intergral to compute the total yield in ears}{
-	area of i$^{\text{th}}$ slice =  $\pi y_{i}^{2} - \pi(y_{i} - \Delta y)^2$ \\
-	= $\pi y_{i}^{2} - \pi (y_{i}^{2} - 2y_{i} \Delta y + (\Delta y)^{2})$ \\
-	$ \approx 2 \pi y_{i} \Delta y$ \\
-	ears in the i$^{th}$ slice $= p(y_{i}) 2 \pi Y_{i} \Delta y$ \\
-	total number of ears $\approx \sum^{n}_{i = 1} p(y_{i}) 2 \pi y_{i} \Delta y$ \\
-	total number of ears $ = \int^{50}_{0} f(y) 2 \pi y \Delta y$
+	\begin{itemize}
+		\item area of i$^{\text{th}}$ slice =  $\pi y_{i}^{2} - \pi(y_{i} - \Delta y)^2 = \pi y_{i}^{2} - \pi (y_{i}^{2} - 2y_{i} \Delta y + (\Delta y)^{2})$ \\
+		\item ears in the i$^{th}$ slice $= p(y_{i}) 2 \pi Y_{i} \Delta y \approx 2 \pi y_{i} \Delta y$ \\
+		\item total number of ears $\approx \sum^{n}_{i = 1} p(y_{i}) 2 \pi y_{i} \Delta y$ \\
+		\item total number of ears $ = \int^{50}_{0} f(y) 2 \pi y \Delta y$
+	\end{itemize}
 
 }
 
@@ -102,21 +119,25 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	}
 
 \ex{Conical tank full of sludge with density $f(2)$ kg/m$^{3}$, where $z$ is depth. Find an integral to compute the towrk done (against gravity) in pumping all the sludge to height $p$ 1 m aove the tank}{
-	Volume of the $i^{th}$ slice $\approx \pi r_{i}^{2} \Delta x$ \\
-	$\frac{r_{i}}{6 - z_{i}} = \frac{3}{6}$ \\
-	$r_{i} = \frac{1}{2} ( 6 - z_{i}) = 3 - \frac{z_{i}}{2}$ \\
-	Volume of the $i^{th}$ slice $ \pi \left( 3 - \frac{}z_{i}{2}\right)^{2} \Delta z$ m$^{3}$ \\
-	mass of the $i^{th}$ slice $ \approx f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2} \right)^{2} \Delta z$ kg \\
-	weight of the $i^{th}$ slice $\approx 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} \Delta z$ N \\
-	work for the $i^{th}$ slice $ \approx 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} \Delta z (z_{i} + 1)$ J\\
-	total work $ = \sum^{n}_{i = 1} 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} (z_{i} + 1) \Delta z$ J\\
-	total work $ =  \int_{0}^{6} 9.8f(z_{i}) \pi \left( 3 - \frac{z}{2}\right) ^{2} (z + 1) dz$ J
+	\begin{itemize}
+		\item Volume of the $i^{th}$ slice $\approx \pi r_{i}^{2} \Delta x$ \\
+		\item $\frac{r_{i}}{6 - z_{i}} = \frac{3}{6}$ \\
+		\item $r_{i} = \frac{1}{2} ( 6 - z_{i}) = 3 - \frac{z_{i}}{2}$ \\
+		\item Volume of the $i^{th}$ slice $ \pi \left( 3 - \frac{}z_{i}{2}\right)^{2} \Delta z$ m$^{3}$ \\
+		\item mass of the $i^{th}$ slice $ \approx f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2} \right)^{2} \Delta z$ kg \\
+		\item weight of the $i^{th}$ slice $\approx 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} \Delta z$ N \\
+		\item work for the $i^{th}$ slice $ \approx 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} \Delta z (z_{i} + 1)$ J\\
+		\item total work $ = \sum^{n}_{i = 1} 9.8f(z_{i}) \pi \left( 3 - \frac{z_{i}}{2}\right) ^{2} (z_{i} + 1) \Delta z$ J\\
+		\item total work $ =  \int_{0}^{6} 9.8f(z_{i}) \pi \left( 3 - \frac{z}{2}\right) ^{2} (z + 1) dz$ J
+	\end{itemize}
 }
 
 \ex{Given a functino f(x), $a \leq x \leq b$ what is the length of the graph}{
-	length of $i^{th}$ piece $\approx \sqrt{(x_{i} - x_{i -1})^{2} + (f(x_{i}) - f(x_{i-1}))^{2}} \approx \sqrt{(\Delta x + (f'(x_{i}))\Delta x)^{2}} = \sqrt{1 + (f'(x_{i}))^{2}} \Delta x$ \\
-	total length $= \sum^{n}_{i =1} \sqrt{1 + (f'(x_{i}))^{2}} \Delta x $ \\
-	total length $ = \int_{a}^{b} \sqrt{1 + (f'(x_{i}))^{2}} dx$
+	\begin{itemize}
+		\item length of $i^{th}$ piece $\approx \sqrt{(x_{i} - x_{i -1})^{2} + (f(x_{i}) - f(x_{i-1}))^{2}} \approx \sqrt{(\Delta x + (f'(x_{i}))\Delta x)^{2}} = \sqrt{1 + (f'(x_{i}))^{2}} \Delta x$ \\
+		\item total length $= \sum^{n}_{i =1} \sqrt{1 + (f'(x_{i}))^{2}} \Delta x $ \\
+		\item total length $ = \int_{a}^{b} \sqrt{1 + (f'(x_{i}))^{2}} dx$
+	\end{itemize}
 }
 
 \chapter{}
@@ -160,15 +181,20 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 }
 
 \nt{
-	General formula: $Q(x) = f(a) + f'(a)(x-a) + \frac{f''(x)}{2}(x-1)^{2}$ \\
-	Def: The n$^{th}$ degree Taylor polynomial of $f(x)$ based at $x=a$ is: \\
-	$P_{n}(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^{2} +  \frac{f^{(3)}(a)}{6}(x-a)^{3} + \frac{f^{(4)}(a)}{24}(x-a)^{4} + \ldots \frac{f^{(n)}(a)}{n!}(x-a)^{n}$ \\
-	$\sum^{n}_{k=0} \frac{f^{(k)}(a)}{k!}(x-a)^{k}$
-	Define: \\
-	$f^{(0)}(x) = f(x)$
-	$0! =1$\\
-	$(x-a)^{0} = 1$ for all $x$  
+	General formula for Taylor Polynomial: $Q(x) = f(a) + f'(a)(x-a) + \frac{f''(x)}{2}(x-1)^{2}$ \\ 
 }
+
+\dfnc{Taylor Polynomial}{The n$^{th}$ degree Taylor polynomial of $f(x)$ based at $x=a$ is: \\
+	$P_{n}(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^{2} +  \frac{f^{(3)}(a)}{6}(x-a)^{3} + \frac{f^{(4)}(a)}{24}(x-a)^{4} + \ldots \frac{f^{(n)}(a)}{n!}(x-a)^{n}$ \\
+	\begin{center}
+		\[ \sum^{n}_{k=0} \frac{f^{(k)}(a)}{k!}(x-a)^{k} \] 
+	\end{center}
+	Define: \\
+	\begin{itemize}
+		\item 	$f^{(0)}(x) = f(x)$ 
+		\item 	$0! =1$
+		\item 	$(x-a)^{0} = 1$ for all $x$ 
+	\end{itemize}}
 
 \ex{Let $f(x) = \frac{1}{1-x}$, based at $x=0$. Find $P_{4}(x)$}{
 	\begin{center}
