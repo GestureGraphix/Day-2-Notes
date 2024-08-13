@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1723270180.62836 "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" "Notes.pdf" "Notes" 1723270182.22492 0
+["pdflatex"] 1723588166.90537 "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" "Notes.pdf" "Notes" 1723588169.14176 0
   "/home/alexhernandezjuarez/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1720481783.93384 102210 594230a8db9705ddc17b471ed59cab5b ""
   "/home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1720481779.2778 11548 a72ccb84d52a88897df751d2d1963cd5 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1720481676.53285 21086769 199704c7fa1ab56f08185f2a01667ed0 ""
@@ -13,6 +13,8 @@
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1720481713.68919 940 228d6584342e91276bf566bcf9716b83 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1720481666.70876 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm" 1720481666.70876 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx5.tfm" 1720481666.70876 1332 f817c21a1ba54560425663374f1b651a ""
+  "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx7.tfm" 1720481666.70876 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmbxti10.tfm" 1720481666.70876 1532 9162035f4e7176612125649e348e2195 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmcsc10.tfm" 1720481666.70876 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/tfm/public/cm/cmr12.tfm" 1720481666.70876 1288 655e228510b4c2a1abe905c368440826 ""
@@ -267,13 +269,16 @@
   "/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/xfrac/xfrac.sty" 1720481722.07727 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/xifthen/xifthen.sty" 1720481758.74561 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1720481720.24125 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" 1723270114.72587 21219 c37bfc88d21bc44d2df21ec2dead8baa ""
-  "Notes.aux" 1723270182.10517 6866 adedb6ff4b6eaefe430cfcba5daa3cb2 "pdflatex"
-  "Notes.tex" 1723270114.72587 21219 c37bfc88d21bc44d2df21ec2dead8baa ""
-  "Notes.toc" 1723270182.10717 1162 05284580a94f67bf7a8f07805be6de2c "pdflatex"
+  "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" 1723588166.54311 21310 3e01ca66a84c0e8e4da2d652e0504fda ""
+  "Notes.aux" 1723588169.01213 6953 5561c801b28fa6ad734c80d22074973b "pdflatex"
+  "Notes.tex" 1723588166.54311 21310 3e01ca66a84c0e8e4da2d652e0504fda ""
+  "Notes.toc" 1723588169.01513 1164 a045c76c613c732cdf32dac2b871ddf6 "pdflatex"
   "letterfonts.tex" 1720527956.72324 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1720527956.72324 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "preamble.tex" 1723267929.80126 21657 00ce7f9bc6dba1da0d3b6932c2d9110c ""
+  "preamble.tex" 1723588086.26959 26105 2cf8c4f937486c9657ee7fb0955db9da ""
+  "rose.png" 1723583088.59251 84304 9523fd103fff6cdfa3cfa431464e1d56 ""
+  "slime.png" 1723587585.41747 937180 3032107e4a9c1f8dedae965ebfd116af ""
+  "vio.png" 1723586847.70857 123092 013545dde7992ecb15013f2786ce5cad ""
   (generated)
   "Notes.aux"
   "Notes.log"

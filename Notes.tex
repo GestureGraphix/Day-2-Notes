@@ -38,12 +38,12 @@
 
 \section{In class notes}
 
-\nt{In physics work = (force)(distance)\\
+\ntimg{In physics work = (force)(distance)\\
 (ft * lbs) = (lbs)(ft) \\
 (N * m) = (n)(M)
 }
 
-\ex{ Q: For (2), how much work is required to remove the soil}{
+\exrose{ Q: For (2), how much work is required to remove the soil}{
 	Slice the shape into layers parallel to the bottom of the hole. \\
 	Let x be the depth from the top of the hole $(0 \leq x \leq 10)$ each layer has thicknes $\Delta x$. \\
 	\begin{itemize}
@@ -61,7 +61,7 @@
 	\end{center}
 }
 
-\ex{ Q: How much work for a $10$ by $6$ by $4$ hole}{
+\exrose{ Q: How much work for a $10$ by $6$ by $4$ hole}{
 	\begin{itemize}
 		\item Volume of the i$^{\text{th}}$ slice = $(10)(6)(\Delta x) = 60 \Delta x \text{ ft}^{3}$ 
 		\item Weight of the i$^{\text{th}}$ slice = $12$lb/ft$^{3} \space (60 \Delta x) \text{ft}^{3} = 720 \Delta x$ lbs
@@ -74,7 +74,7 @@
 	\end{center}
 }
 
-\ex{ Suppose the density of the soil is given by $p(x) = 8 + 2x$ lb/ft$^{3}$. How does the change the answer for the shallow soil?}{
+\exrose{ Suppose the density of the soil is given by $p(x) = 8 + 2x$ lb/ft$^{3}$. How does the change the answer for the shallow soil?}{
 	\begin{itemize}
 		\item $\text{Volume of the i}^{th} \text{slice} = 60 \Delta x \text{ft}^{3}$
 		\item $\text{Weight of the i}^{th} \text{slice} = (8 + 2x_{i})60 \Delta x $
@@ -87,7 +87,7 @@
 	
 }
 
-\ex{ Circular corn field of radius $50$ ft. The density of the corn in (ears/ft$^{2}$) is a function $f(y)$ 
+\exrose{ Circular corn field of radius $50$ ft. The density of the corn in (ears/ft$^{2}$) is a function $f(y)$ 
 where $y$ is the distance from the center of the circle. Write an intergral to compute the total yield in ears}{
 	\begin{itemize}
 		\item area of i$^{\text{th}}$ slice =  $\pi y_{i}^{2} - \pi(y_{i} - \Delta y)^2 = \pi y_{i}^{2} - \pi (y_{i}^{2} - 2y_{i} \Delta y + (\Delta y)^{2})$ \\
@@ -118,7 +118,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	total numebr of ears $= 2 \int^{50}_{0} g(y_{i}) \sqrt{10000 - 4y_{i}^2} dy$
 	}
 
-\ex{Conical tank full of sludge with density $f(2)$ kg/m$^{3}$, where $z$ is depth. Find an integral to compute the towrk done (against gravity) in pumping all the sludge to height $p$ 1 m aove the tank}{
+\exrose{Conical tank full of sludge with density $f(2)$ kg/m$^{3}$, where $z$ is depth. Find an integral to compute the towrk done (against gravity) in pumping all the sludge to height $p$ 1 m aove the tank}{
 	\begin{itemize}
 		\item Volume of the $i^{th}$ slice $\approx \pi r_{i}^{2} \Delta x$ \\
 		\item $\frac{r_{i}}{6 - z_{i}} = \frac{3}{6}$ \\
@@ -132,7 +132,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{itemize}
 }
 
-\ex{Given a functino f(x), $a \leq x \leq b$ what is the length of the graph}{
+\exrose{Given a functino f(x), $a \leq x \leq b$ what is the length of the graph}{
 	\begin{itemize}
 		\item length of $i^{th}$ piece $\approx \sqrt{(x_{i} - x_{i -1})^{2} + (f(x_{i}) - f(x_{i-1}))^{2}} \approx \sqrt{(\Delta x + (f'(x_{i}))\Delta x)^{2}} = \sqrt{1 + (f'(x_{i}))^{2}} \Delta x$ \\
 		\item total length $= \sum^{n}_{i =1} \sqrt{1 + (f'(x_{i}))^{2}} \Delta x $ \\
@@ -167,7 +167,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	$L(x)$ underestimates $f(x)$ near $x=2$
 }
 
-\ex{Find the quadratic function that best approximates $f(x) = \frac{1}{1+x^{2}}$ near $x=2$}{
+\exrose{Find the quadratic function that best approximates $f(x) = \frac{1}{1+x^{2}}$ near $x=2$}{
 	Find $Q(x) = C_{0} + C_{1}(x-2) + C_{2}(x-2)^{2}$ such that $Q(2) = f(2) = \frac{1}{5}$, $Q'(2) = f'(2) = \frac{-4}{25}$, and $G''(x) = f''(2) = \frac{22}{125}$ \\
 	\begin{center}
 		\[ Q'(x) = C_{1} + 2C_{2}(2-2) \] 
@@ -177,14 +177,13 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 		\[ Q''(2) = 2C_{2} = \frac{22}{125} \to C_{2} = \frac{11}{125}\] 
 		\[ Q(x) = \frac{1}{5} - \frac{4}{25}(x-2) + \frac{11}{125}(x-2)^{2} \] 
 	\end{center}
-
 }
 
-\nt{
+\ntimg{
 	General formula for Taylor Polynomial: $Q(x) = f(a) + f'(a)(x-a) + \frac{f''(x)}{2}(x-1)^{2}$ \\ 
 }
 
-\dfnc{Taylor Polynomial}{The n$^{th}$ degree Taylor polynomial of $f(x)$ based at $x=a$ is: \\
+\defrose{Taylor Polynomial}{The n$^{th}$ degree Taylor polynomial of $f(x)$ based at $x=a$ is: \\
 	$P_{n}(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^{2} +  \frac{f^{(3)}(a)}{6}(x-a)^{3} + \frac{f^{(4)}(a)}{24}(x-a)^{4} + \ldots \frac{f^{(n)}(a)}{n!}(x-a)^{n}$ \\
 	\begin{center}
 		\[ \sum^{n}_{k=0} \frac{f^{(k)}(a)}{k!}(x-a)^{k} \] 
@@ -196,7 +195,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 		\item 	$(x-a)^{0} = 1$ for all $x$ 
 	\end{itemize}}
 
-\ex{Let $f(x) = \frac{1}{1-x}$, based at $x=0$. Find $P_{4}(x)$}{
+\exrose{Let $f(x) = \frac{1}{1-x}$, based at $x=0$. Find $P_{4}(x)$}{
 	\begin{center}
 		\[ f(x) = \frac{1}{1-x}\]
 		\[ f'(x) = \frac{-1}{(1-x)^{2}}(-1) = \frac{1}{(1-x)^{2}}\]  
@@ -223,7 +222,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	Lower: $-5$ \\
 }
 
-\nt{
+\ntimg{
 	Mean value theorem: If $f$ is  continuous on $[a,b]$ and differentiable on the $(a,b)$ then there 
 	exists a $c$ on $(a,b)$ such that $f'(c) = \frac{f(b) - f(a)}{b-a}$ \\\\
 	Taylor's Theorem: If $f$ is continuous on $[a,b]$ and $(n+1)^{\text{st}}$ differentiable 
@@ -243,7 +242,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	$n^{th}$ degree TP based at x = a: where $|f^{(n+1)} (z)| \leq M$ for all $z$ between $a$ and $x$. 
 }
 
-\ex{In quiz, we wanted to approximate $\sqrt{3.95}$ using 1$^{st}$ degree TP based at $x=4$.}{
+\exrose{In quiz, we wanted to approximate $\sqrt{3.95}$ using 1$^{st}$ degree TP based at $x=4$.}{
 	\begin{center}
 		\[ P_{1}(x) = 2 + \frac{1}{4}(x-a) \]
 		\[ \sqrt{3.95} \approx P_{1}(3.95) = 2 + \frac{1}{4} (3.95 - 4) = 2 - 0.00125 = 1.9875\] 
@@ -254,7 +253,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center}
 }
 
-\ex{Find $n$ so that the $n^{th}$ defree TP for $f(x) = \cos x $ based at $x = 0$ approximate $\cos(0.03)$ to within $10^{-15}$}{
+\exrose{Find $n$ so that the $n^{th}$ defree TP for $f(x) = \cos x $ based at $x = 0$ approximate $\cos(0.03)$ to within $10^{-15}$}{
 	\begin{center}
 		\[ f'(x) = - \sin(x) \]
 		\[ f''(x) = - \cos (x) \]
@@ -302,11 +301,11 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center}
 
 \section{Infinite Series}
-\ex{Consider $x = 1$ in the warm up. We showed $\lim_{n \to \infty} |e^{1} - P_{n}(1)| = 0 $. ie $\lim_{n \to \infty} | e - \left( 1 +  1 \frac{1}{2}   + \frac{1}{6}  + \frac{1}{24} + \ldots + \frac{1}{n!}\right)| = 0$ \\ $\lim_{n \to \infty}  \left( 1 + 1  + \frac{1}{2}  + \frac{1}{6}  + \frac{1}{24} + \ldots +  + \frac{1}{n!}\right) = e$}{
+\exrose{Consider $x = 1$ in the warm up. We showed $\lim_{n \to \infty} |e^{1} - P_{n}(1)| = 0 $. ie $\lim_{n \to \infty} | e - \left( 1 +  1 \frac{1}{2}   + \frac{1}{6}  + \frac{1}{24} + \ldots + \frac{1}{n!}\right)| = 0$ \\ $\lim_{n \to \infty}  \left( 1 + 1  + \frac{1}{2}  + \frac{1}{6}  + \frac{1}{24} + \ldots +  + \frac{1}{n!}\right) = e$}{
 	\text{i.e. $\sum_{k = 0}^{\infty} \frac{1}{k!} = e$} }
 }
 
-\nt{
+\ntimg{
 	Def: An infinite series is a sum of the form 
 	\begin{center}
 		\[\sum_{k = 0 }^{\infty} a_{k} = a_{0} + a_{1} + a_{2} + \ldots \]
@@ -317,7 +316,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center} 
 }
 
-\ex{Example 1}{
+\exrose{Example 1}{
 	\begin{center}
 		\[ \sum_{k=0}^{\infty} \frac{1}{k!} = 1 + 1 + \frac{1}{2} + \frac{1}{6} + \ldots \]
 		\[ S_{0} = \sum_{k = 0}^{0} \frac{1}{k!} = \frac{1}{0!} = 1\]
@@ -327,7 +326,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center}
 }
 
-\ex{Example 2}{
+\exrose{Example 2}{
 	\begin{center}
 		\[ \sum_{k = 0}^{\infty} (-1)^{k} = 1 - 1 + 1 - 1 + 1 \dots \]
 		\[ S_{0} = 1\]  
@@ -338,7 +337,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center}
 }
 
-\ex{Example 3}{
+\exrose{Example 3}{
 	\begin{center}
 		\[ \sum_{k = 2}^{\infty} \frac{1}{k^{2} + k}\]
 		\[ S_{2} = \frac{1}{6} \] 
@@ -347,7 +346,7 @@ where $y$ is the distance from the center of the circle. Write an intergral to c
 	\end{center}
 }
 
-\nt{Def: $\sum_{k = 0}^{\infty} a_{k} $ converges if $\lim_{n \to \infty} S_{n}$ exists and is finite, in which case
+\ntimg{Def: $\sum_{k = 0}^{\infty} a_{k} $ converges if $\lim_{n \to \infty} S_{n}$ exists and is finite, in which case
 we write 
 	\begin{center}
 		\[ \sum_{k = 0}^{\infty} a_{k} = \lim_{n \to \infty} S_{n}\]
@@ -390,7 +389,7 @@ for the n$^{th}$ partial sum. \\
 }
 
 \section{Geometric Series}
-\ex{Suppose a patient takes 100mg of a certain druge once per day. In 
+\exrose{Suppose a patient takes 100mg of a certain druge once per day. In 
 24 hours the patients body eliminates 80$\text{\%}$ of the drug}{
 	(a) If the first dose is the $k = 0$ dose, how much of the drug is present 
 	immediately after the $ k = 1$ dose 
@@ -414,7 +413,7 @@ for the n$^{th}$ partial sum. \\
 
 }
 
-\nt{In general a geometric series has the form
+\ntimg{In general a geometric series has the form
 	\begin{center}
 		\[ \sum_{k = 0}^{\infty} a r ^{k} = a + ar + ar^{2}\] 
 	\end{center}
@@ -464,7 +463,7 @@ for the n$^{th}$ partial sum. \\
 	(4) true, $\lim_{n \to \infty} \frac{4n^{2}}{1 + n^{2}} = 4$
 }
 
-\ex{Cconsider a bowl whose shpae is given by rotating the grahp of $y =x^{2}$, $o \leq x \leq 2$ around the 
+\exrose{Cconsider a bowl whose shpae is given by rotating the grahp of $y =x^{2}$, $o \leq x \leq 2$ around the 
 y-axis}{
 	(a) Write an integral to compute the volume of the bowl. 
 	\begin{center}
@@ -490,13 +489,13 @@ y-axis}{
 	\end{center}
 }
 
-\nt{ 
+\ntimg{ 
 	If $f$ is increasing, $L_{n} < I < R_{n}$ \\
 	If $f$ is decreasing, $R_{n} < I < L_{n}$ \\
 	If $f$ is concave up, $M_{n} < I < T_{n}$ \\
 	If $f$ is concave down, $T_{n} < I < M{n}$
 }
-\ex{Let $I = \int_{0}^{8} \frac{1}{x+3} dx$}{
+\exrose{Let $I = \int_{0}^{8} \frac{1}{x+3} dx$}{
 	(a) Is $M_{2}$ an over or under approx. for I? \\
 	\begin{center}
 		\[ f(x) = \frac{1}{x + 3} = (x + 8)^{-1}\]

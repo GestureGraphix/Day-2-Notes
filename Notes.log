@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.8)  10 AUG 2024 02:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.8)  13 AUG 2024 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1063,19 +1063,21 @@ File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@tcb@cnt@exercise=\count458
 \c@tcb@cnt@Example=\count459
 \c@tcb@cnt@example=\count460
-\c@tcb@cnt@Definition=\count461
-\c@tcb@cnt@definition=\count462
-\c@tcb@cnt@question=\count463
-\c@tcb@cnt@qstion=\count464
-\c@tcb@cnt@wconc=\count465
+\c@tcb@cnt@ExampleWithRose=\count461
+\c@tcb@cnt@Definition=\count462
+\c@tcb@cnt@definition=\count463
+\c@tcb@cnt@DefinitionWithImage=\count464
+\c@tcb@cnt@question=\count465
+\c@tcb@cnt@qstion=\count466
+\c@tcb@cnt@wconc=\count467
  (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfbs@fading@count=\count466
+\pgfbs@fading@count=\count468
 )
-\c@mylabelcounter=\count467
+\c@mylabelcounter=\count469
 \diffdbox=\box145
  (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
@@ -1160,16 +1162,16 @@ LaTeX Info: Command `\dddot' is already robust on input line 11.
 LaTeX Info: Command `\ddddot' is already robust on input line 11.
 (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count468
+\scratchcounter=\count470
 \scratchdimen=\dimen333
 \scratchbox=\box146
-\nofMPsegments=\count469
-\nofMParguments=\count470
+\nofMPsegments=\count471
+\nofMParguments=\count472
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count471
+\MPscratchCnt=\count473
 \MPscratchDim=\dimen334
-\MPnumerator=\count472
-\makeMPintoPDFobject=\count473
+\MPnumerator=\count474
+\makeMPintoPDFobject=\count475
 \everyMPtoPDFconversion=\toks56
 ) (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1178,7 +1180,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 11.
-\c@lstlisting=\count474
+\c@lstlisting=\count476
  (/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks57
@@ -1249,6 +1251,11 @@ Chapter 1.
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 23.
 
+<rose.png, id=115, 1379.1525pt x 1231.60126pt>
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 44.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
@@ -1259,11 +1266,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
+<vio.png, id=117, 481.8pt x 409.53pt>
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 62.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
 [2
 
-{/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/enc/dvips/newpx/px-lms.enc}]
+{/home/alexhernandezjuarez/.miktex/texmfs/install/fonts/enc/dvips/newpx/px-lms.enc} <./rose.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
 
  []
@@ -1273,6 +1285,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--75
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 75.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 88.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
@@ -1288,9 +1308,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 99.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[3]
+[3 <./vio.png>]
+
+[4]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--133
@@ -1332,9 +1358,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 133.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[4
+[5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
@@ -1346,112 +1376,198 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 141.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[5]
+[6]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 180.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[6
+[7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 184.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
+<slime.png, id=174, 867.24pt x 530.2209pt>
+File: slime.png Graphic file (type png)
+<use slime.png>
+Package pdftex.def Info: slime.png  used on input line 196.
+(pdftex.def)             Requested size: 28.45274pt x 17.39459pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 206.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
 
- []
+[8 <./slime.png>]
 
-
-
-[7]
-
-[8]
+[9]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--225
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 
  []
 
 
 
-[9
+[10
 
 ]
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 243.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 254.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 266.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
-[10]
+
+[11]
 Chapter 5.
 
 
-[11
+[12
 
 ]
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 305.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 317.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 327.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 338.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
-[12]
 
 [13]
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 347.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 364.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+
+
+[14]
 Chapter 6.
 
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 414.
 
-[14
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 414.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
+
+
+[15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 441--441
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 432.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
 
  []
 
 
-
-[15]
 
 [16]
+
+[17]
 Chapter 7.
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 490.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[17
+[18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+File: rose.png Graphic file (type png)
+<use rose.png>
+Package pdftex.def Info: rose.png  used on input line 497.
+(pdftex.def)             Requested size: 28.45274pt x 25.40771pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 
  []
 
+File: vio.png Graphic file (type png)
+<use vio.png>
+Package pdftex.def Info: vio.png  used on input line 518.
+(pdftex.def)             Requested size: 42.67912pt x 36.27495pt.
 
 
-[18]
+[19]
 
-[19] (Notes.aux)
+[20] (Notes.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1466,17 +1582,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37231 strings out of 475839
- 751962 string characters out of 5777281
- 1950905 words of memory out of 5000000
- 59121 multiletter control sequences out of 15000+600000
- 588620 words of font info for 123 fonts, out of 8000000 for 9000
+ 37301 strings out of 475839
+ 753623 string characters out of 5777281
+ 1953905 words of memory out of 5000000
+ 59188 multiletter control sequences out of 15000+600000
+ 589239 words of font info for 125 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 99i,8n,102p,603b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,102p,603b,1733s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/NewPXMI.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/NewPXMI_gnu.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/pxmiaX.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newpx/pxsys.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newtx/txexs.pfb></home/alexhernandezjuarez/.miktex/texmfs/install/fonts/type1/public/newtx/txsym.pfb>
-Output written on Notes.pdf (20 pages, 277431 bytes).
+Output written on Notes.pdf (21 pages, 1311327 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 411 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 426 words of extra memory for PDF output out of 10000 (max. 10000000)
 

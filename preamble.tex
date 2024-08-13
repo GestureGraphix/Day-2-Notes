@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGE IMPORTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -33,6 +33,7 @@
 \usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
+\usepackage{graphicx} % <-- Added package to handle graphics
 
 \newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
 \SetCommentSty{mycommfont}
@@ -389,6 +390,25 @@
 }
 {ex}
 
+%================================
+% EXAMPLE BOX (Rose)
+%================================
+
+% Define the custom example box with rose image in the top-right corner
+\newtcolorbox[auto counter, number within=section]{ExampleWithRose}[2][]{%
+    colback=myexamplebg,
+    colframe=myexamplefr,
+    coltitle=myexampleti,
+    fonttitle=\bfseries,
+    title={Example~\thetcbcounter: #2},
+    sharp corners,
+    enhanced,
+    overlay={
+        \node[anchor=south east] at (frame.south east) {\includegraphics[width=1.5cm]{vio.png}};
+    },
+    #1
+}
+
 
 %================================
 % DEFINITION BOX
@@ -445,6 +465,45 @@
 	title={#2},#1}{def}
 \makeatother
 
+%================================
+% DEFINITION BOX WITH IMAGE IN BOTTOM-RIGHT
+%================================
+
+%================================
+% DEFINITION BOX WITH IMAGE IN BOTTOM-RIGHT
+%================================
+
+\makeatletter
+\definecolor{customblue}{RGB}{198, 220, 228} % Custom blue color
+\definecolor{darkblue}{RGB}{90, 120, 140} % Darker blue for text
+
+\newtcbtheorem[number within=section]{DefinitionWithImage}{Definition}{enhanced,
+	before skip=2mm,after skip=2mm, colback=customblue!20,colframe=customblue!80,boxrule=0.5mm,
+	attach boxed title to top left={xshift=1cm,yshift*=1mm-\tcboxedtitleheight}, varwidth boxed title*=-3cm,
+	boxed title style={frame code={
+					\path[fill=customblue]  % Custom blue fill
+					([yshift=-1mm,xshift=-1mm]frame.north west)
+					arc[start angle=0,end angle=180,radius=1mm]
+					([yshift=-1mm,xshift=1mm]frame.north east)
+					arc[start angle=180,end angle=0,radius=1mm];
+					\path[left color=customblue,right color=customblue,
+						middle color=customblue!90]  % Light custom blue gradient
+					([xshift=-2mm]frame.north west) -- ([xshift=2mm]frame.north east)
+					[rounded corners=1mm]-- ([xshift=1mm,yshift=-1mm]frame.north east)
+					-- (frame.south east) -- (frame.south west)
+					-- ([xshift=-1mm,yshift=-1mm]frame.north west)
+					[sharp corners]-- cycle;
+				},interior engine=empty,
+		},
+	fonttitle=\bfseries\color{darkblue}, % Darker blue for the title text
+	coltitle=darkblue, % Darker blue for the box title
+	colbacktitle=customblue!80, % Background for the title
+	title={#2},
+	overlay unbroken and last={
+		\node[anchor=south east,xshift=-2mm,yshift=2mm] at (frame.south east) {\includegraphics[width=1 cm]{slime.png}};
+	} % Adjust the path and size to your needs
+}{def}
+\makeatother
 
 %================================
 % Solution BOX (Pastel Light Blue)
@@ -599,6 +658,47 @@
     #1,
 }
 
+%================================
+% NOTE BOX (Pastel Pink with Image in Bottom-Left)
+%================================
+
+\newtcolorbox{noteWithImage}[1][]{%
+    enhanced jigsaw,
+    colback=pastelpink, % Use pastel pink for the background
+    colframe=pastelpink, % Use pastel pink for the frame
+    size=small,
+    boxrule=1pt,
+    title=\textbf{Note:-},
+    halign title=flush center,
+    coltitle=black,
+    breakable,
+    drop shadow=black!50!white,
+    attach boxed title to top left={xshift=1cm,yshift=-\tcboxedtitleheight/2,yshifttext=-\tcboxedtitleheight/2},
+    minipage boxed title=1.5cm,
+    boxed title style={%
+            colback=white,
+            size=fbox,
+            boxrule=1pt,
+            boxsep=2pt,
+            underlay={%
+                    \coordinate (dotA) at ($(interior.west) + (-0.5pt,0)$);
+                    \coordinate (dotB) at ($(interior.east) + (0.5pt,0)$);
+                    \begin{scope}
+                        \clip (interior.north west) rectangle ([xshift=3ex]interior.east);
+                        \filldraw [white, blur shadow={shadow opacity=60, shadow yshift=-.75ex}, rounded corners=2pt] (interior.north west) rectangle (interior.south east);
+                    \end{scope}
+                    \begin{scope}[pastelpink]
+                        \fill (dotA) circle (2pt);
+                        \fill (dotB) circle (2pt);
+                    \end{scope}
+                },
+        },
+    overlay unbroken and last={
+        \node[anchor=south east,xshift=-2mm,yshift=1mm] at (frame.south east) {\includegraphics[width=1cm]{rose.png}};
+    }, % Replace 'image.png' with the path to your image
+    #1,
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SELF MADE COMMANDS
@@ -619,6 +719,25 @@
 \newcommand{\qs}[2]{\begin{question}{#1}{}#2\end{question}}
 \newcommand{\pf}[2]{\begin{myproof}[#1]#2\end{myproof}}
 \newcommand{\nt}[1]{\begin{note}#1\end{note}}
+\newcommand{\insertpng}[2][1]{\begin{center} \includegraphics[scale=#1]{#2} \end{center}} % <-- New command for PNG insertion
+
+\newcommand{\defrose}[2]{%
+    \begin{DefinitionWithImage}{#1}%
+        #2%
+    \end{DefinitionWithImage}%
+}
+
+\newcommand{\exrose}[2]{%
+    \begin{ExampleWithRose}{#1}%
+        #2%
+    \end{ExampleWithRose}%
+}
+
+\newcommand{\ntimg}[2][]{%
+    \begin{noteWithImage}[#1]%
+        #2%
+    \end{noteWithImage}%
+}
 
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
 		\node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
