@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1723604645.91085 "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" "Notes.pdf" "Notes" 1723604648.17388 0
+["pdflatex"] 1723605229.82103 "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" "Notes.pdf" "Notes" 1723605232.11679 0
   "/home/alexhernandezjuarez/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1720481783.93384 102210 594230a8db9705ddc17b471ed59cab5b ""
   "/home/alexhernandezjuarez/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1720481779.2778 11548 a72ccb84d52a88897df751d2d1963cd5 ""
   "/home/alexhernandezjuarez/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1720481676.53285 21086769 199704c7fa1ab56f08185f2a01667ed0 ""
@@ -270,14 +270,14 @@
   "/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/xifthen/xifthen.sty" 1720481758.74561 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/home/alexhernandezjuarez/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty" 1720481720.24125 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/home/alexhernandezjuarez/Documents/math/notes/Day 2 Notes/Notes.tex" 1723603319.82548 21311 10e8e6514285de0ca938cf7d4806814c ""
-  "Notes.aux" 1723604648.04773 6953 3c96dbc5bbfc41fe4320ae12ae0393fd "pdflatex"
+  "Notes.aux" 1723605231.99157 6953 3c96dbc5bbfc41fe4320ae12ae0393fd "pdflatex"
   "Notes.tex" 1723603319.82548 21311 10e8e6514285de0ca938cf7d4806814c ""
-  "Notes.toc" 1723604648.04973 1164 a045c76c613c732cdf32dac2b871ddf6 "pdflatex"
+  "Notes.toc" 1723605231.99457 1164 a045c76c613c732cdf32dac2b871ddf6 "pdflatex"
   "flow.png" 1723602120.64709 3327 eab4ed35b4d13609c606e28f6c71b1ca ""
   "letterfonts.tex" 1720527956.72324 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "lot.png" 1723601909.60344 371900 6f9425d133ddfae48260c3ff1caaf72c ""
   "macros.tex" 1720527956.72324 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "preamble.tex" 1723604645.20472 26551 eed95307403340ccf1ed17519dc2abec ""
+  "preamble.tex" 1723605229.46555 26551 a940610016358c7f409c3c2ac590da66 ""
   "slime.png" 1723587585.41747 937180 3032107e4a9c1f8dedae965ebfd116af ""
   (generated)
   "Notes.aux"
